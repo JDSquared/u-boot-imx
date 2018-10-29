@@ -255,9 +255,9 @@
 		"if test $fdt_file = undefined; then " \
 			"if test $som_rev = EMMC; then " \
 				"if test ${use_m4} = yes; then " \
-					"setenv fdt_file imx7d-var-som-emmc-m4.dtb; " \
+					"setenv fdt_file imx7d-jd2-ethcb-var-som-m4.dtb; " \
 				"else " \
-					"setenv fdt_file imx7d-var-som-emmc.dtb; " \
+					"setenv fdt_file imx7d-jd2-ethcb-var-som.dtb; " \
 				"fi; " \
 			"fi; " \
 			"if test $som_rev = NAND; then " \
